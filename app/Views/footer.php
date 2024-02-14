@@ -49,7 +49,7 @@
             Swal.fire({
                 icon: 'error',
                 title: 'Terjadi Kesalahan',
-                text: '<?= session("error") ?>'
+                text: '<?= session("errors") ?>'
             })
         <?php } ?>
     });
